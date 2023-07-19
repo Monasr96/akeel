@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+html{
+    direction: rtl;
+}
+body{
+    font-family: 'Almarai', sans-serif;
+    color: #0e0c34;
+    font-size: 100%;
+    /* width: 960px;
+    margin: 0 auto; */
+}
+button{
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+    color: #82818a;
+}
+a:hover{
+    color: #a2de96;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/* utilites */
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+section{
+    padding: 5%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5em;
+    color: #8bbd81;
+}
+p{
+    padding: 1rem 0;
+}
+#advantages{
+    background-color: rgba(212, 212, 212, 0.479);
+}
+.col1-3{
+    text-align: center;
+    width: 28%;
+    padding: 3rem 0.5rem;
+}
+.adv-img{
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    background-color: #a2de96;
+    color: #0e0c34;
+    padding: 0.75rem 2rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #8bbd81;
+    color: #fff;
+}
+.btn-small{
+    background-color: #dedede;
+    font-size: 0.75rem;
+    padding: 0.5rem 2rem;
+}
+.btn-small.active{
+    background-color: #8bbd81;
+    color: #fff;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col1-4{
+    width: 190px;
+    border: 1px dashed  #a2de96;
+    position: relative;
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+.col1-4 .img{
+    width:190px ;
+    z-index: -1;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.col1-4-p{
+    background-color: #fff;
+    border-radius: 20px;
+    padding:0.5rem 0.5rem
+}
+b{
+    padding: 1.5rem 0;
+    color: #8bbd81;
+    font-size: 1.25rem;
+}
+.p-btn{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    border-radius: 50%;
+    padding: 0 0.75rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
